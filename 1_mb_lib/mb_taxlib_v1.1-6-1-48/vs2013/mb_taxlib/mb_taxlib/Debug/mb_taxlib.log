@@ -1,0 +1,86 @@
+﻿生成启动时间为 2020-05-20 17:48:34。
+     1>项目“D:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\vs2013\mb_taxlib\mb_taxlib\mb_taxlib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\mb_taxlib.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\tax\aisino\aisino_call.c ..\..\..\tax\aisino\auxiliary\aisino_des.c ..\..\..\tax\aisino\auxiliary\build_invstr.c ..\..\..\tax\aisino\auxiliary\rawio2fpxx.c ..\..\..\tax\aisino\module\aisino_algorithm.c ..\..\..\tax\aisino\module\aisino_common.c ..\..\..\tax\aisino\module\aisino_getinvoice.c ..\..\..\tax\aisino\module\aisino_getstateinfo.c ..\..\..\tax\aisino\module\aisino_invjson.c ..\..\..\tax\aisino\module\aisino_makeinvoice.c ..\..\..\tax\aisino\module\aisino_report_clear.c ..\..\..\tax\aisino\module\aisino_uploadinvoice.c ..\..\..\tax\aisino\usb\aisino_usbio.c ..\..\..\tax\authority\httpsclt.c ..\..\..\tax\authority\ssl_io.c ..\..\..\tax\authority\ta_buildxml.c ..\..\..\tax\authority\ta_iface.c ..\..\..\tax\common\auth.c ..\..\..\tax\common\function.c ..\..\..\tax\common\importinv.c ..\..\..\tax\common\usb_device.c ..\..\..\tax\interface_main.c ..\..\..\tax\mengbai\mengbai_call.c ..\..\..\tax\mengbai\usb\hid_io.c ..\..\..\tax\nisec\module\nisec_algorithm.c ..\..\..\tax\nisec\module\nisec_common.c ..\..\..\tax\nisec\module\nisec_getbuyinvinfo.c ..\..\..\tax\nisec\module\nisec_getinvoice.c ..\..\..\tax\nisec\module\nisec_getmonitor.c ..\..\..\tax\nisec\module\nisec_makeinvoice.c ..\..\..\tax\nisec\nisec_call.c ..\..\..\tax\nisec\usb\nisec_usbio.c
+         nisec_usbio.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\usb\nisec_usbio.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\usb\nisec_usbio.c(35): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_call.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\nisec_call.c(906): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_makeinvoice.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_makeinvoice.c(669): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_getmonitor.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_getmonitor.c(91): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_getinvoice.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_getinvoice.c(1085): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_getbuyinvinfo.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_getbuyinvinfo.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_getbuyinvinfo.c(171): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_common.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_common.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_common.c(348): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_algorithm.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_algorithm.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\nisec\module\nisec_algorithm.c(792): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         hid_io.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\mengbai\usb\hid_io.c(561): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         mengbai_call.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\mengbai\mengbai_call.c(2652): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         interface_main.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\interface_main.c(1726): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         usb_device.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\common\usb_device.c(276): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         importinv.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\common\importinv.c(2920): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         function.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\common\function.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\common\function.c(995): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\common\function.c(1294): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         auth.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\common\auth.c(275): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         ta_iface.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\authority\ta_iface.c(423): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         ta_buildxml.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\authority\ta_buildxml.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\authority\ta_buildxml.c(726): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\authority\ta_buildxml.c(1154): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         ssl_io.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\authority\ssl_io.c(215): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         httpsclt.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\authority\httpsclt.c(509): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_usbio.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\usb\aisino_usbio.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\usb\aisino_usbio.c(93): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+         正在编译...
+         aisino_uploadinvoice.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_uploadinvoice.c(1241): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_report_clear.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_report_clear.c(479): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_makeinvoice.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_makeinvoice.c(966): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_invjson.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_invjson.c(86): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_getstateinfo.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_getstateinfo.c(357): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_getinvoice.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_getinvoice.c(656): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_common.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_common.c(560): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_algorithm.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\module\aisino_algorithm.c(4186): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         rawio2fpxx.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\auxiliary\rawio2fpxx.c(642): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         build_invstr.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\auxiliary\build_invstr.c(734): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_des.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\auxiliary\aisino_des.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\auxiliary\aisino_des.c(382): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_call.c
+     1>d:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\tax\aisino\aisino_call.c(1846): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“D:\share\usbshare\mb_lib\mb_taxlib\mb_taxlib_v1.0.0.15\vs2013\mb_taxlib\mb_taxlib\mb_taxlib.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.08

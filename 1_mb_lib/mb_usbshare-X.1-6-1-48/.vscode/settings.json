@@ -1,0 +1,11 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "interface_main.h": "c",
+        "define.h": "c",
+        "_ty_usb_m.h": "c",
+        "_deploy.h": "c",
+        "_get_net_time.h": "c",
+        "mqtt_client.h": "c"
+    }
+}

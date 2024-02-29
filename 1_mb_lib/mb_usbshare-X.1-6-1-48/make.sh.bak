@@ -1,0 +1,36 @@
+#!/bin/bash
+
+rm -rf ./release_version/taxlib/mb_taxlib/*
+
+cp -rf ../../mb_taxlib/mb_taxlib_v1.1-6-1-34/lib-arm-new ./release_version/taxlib/mb_taxlib/
+
+
+cp -rf ../../mb_taxlib/mb_taxlib_v1.1-6-1-34/mb_taxlib ./release_version/taxlib/mb_taxlib/
+
+
+rm -rf /usr/local/release-include-lib/include-6-1-34
+
+rm -rf /usr/local/release-include-lib/lib-arm-tassl-6-1-34
+
+cp -rf /usr/local/release-include-lib/include-6-1-15 /usr/local/release-include-lib/include-6-1-34
+
+
+cp -rf /usr/local/release-include-lib/lib-arm-tassl-6-1-15 /usr/local/release-include-lib/lib-arm-tassl-6-1-34
+
+
+rm -rf /usr/local/release-include-lib/include-6-1-34/mb_clib
+rm -rf /usr/local/release-include-lib/include-6-1-34/mb_taxlib
+
+
+cp -rf /mnt/share/usbshare/mb_lib/mb_main/mb_usbshare-X.1-6-1-34/release_version/taxlib/mb_clib/mb_clib /usr/local/release-include-lib/include-6-1-34/
+cp -rf /mnt/share/usbshare/mb_lib/mb_main/mb_usbshare-X.1-6-1-34/release_version/taxlib/mb_taxlib/mb_taxlib /usr/local/release-include-lib/include-6-1-34/
+
+rm -rf /usr/local/release-include-lib/lib-arm-tassl-6-1-34/libmb_clib.so
+cp /mnt/share/usbshare/mb_lib/mb_main/mb_usbshare-X.1-6-1-34/release_version/taxlib/mb_clib/lib-arm/libmb_clib.so /usr/local/release-include-lib/lib-arm-tassl-6-1-34/
+
+
+rm -rf /usr/local/release-include-lib/lib-arm-tassl-6-1-34/libmb_taxlib.so
+cp /mnt/share/usbshare/mb_lib/mb_main/mb_usbshare-X.1-6-1-34/release_version/taxlib/mb_taxlib/lib-arm-new/libmb_taxlib.so /usr/local/release-include-lib/lib-arm-tassl-6-1-34/
+
+
+make -f buildall

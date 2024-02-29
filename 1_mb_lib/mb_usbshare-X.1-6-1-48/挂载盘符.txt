@@ -1,0 +1,4 @@
+mount -t cifs -o nounix,noserverino,username=guest,password= //192.168.0.50/share /mnt/share
+
+
+mount -t cifs -o nounix,noserverino,username=guest,password= //192.168.0.50/share /mnt/share && export STAGING_DIR=/usr/local/mips/0.9.33.2/bin/:$STAGING_DIR

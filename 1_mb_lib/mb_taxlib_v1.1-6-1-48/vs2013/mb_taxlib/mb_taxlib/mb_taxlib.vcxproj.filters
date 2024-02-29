@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\tax">
+      <UniqueIdentifier>{9069edab-9a87-4627-93c3-53dd62963f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\common">
+      <UniqueIdentifier>{7061b6fc-b92d-41a1-b029-91094637b4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\mengbai">
+      <UniqueIdentifier>{1ed71d6d-b06c-46a1-aeef-d7b1de6d3d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\aisino">
+      <UniqueIdentifier>{cdc129d8-864b-470e-a5bf-b944646ee15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\nisec">
+      <UniqueIdentifier>{302cfcb0-131b-442b-a829-49dc4bdf0015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\mengbai\usb">
+      <UniqueIdentifier>{a4b02d85-5757-435e-8d6b-c3575b037342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\aisino\auxiliary">
+      <UniqueIdentifier>{9d96955b-7598-45b5-92e0-c4d2060c69cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\aisino\module">
+      <UniqueIdentifier>{7c662286-bb7f-4d63-a19d-252c3e58a8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\aisino\usb">
+      <UniqueIdentifier>{424f4829-a2b6-4d3c-a1bc-8b1ee673b7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\nisec\module">
+      <UniqueIdentifier>{6ca12638-3865-46d5-a263-e06a5f0c7593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\nisec\usb">
+      <UniqueIdentifier>{fe8683f6-b7c2-4109-961c-26943898fa5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\authority">
+      <UniqueIdentifier>{e34346d4-5aa0-4f85-9e92-7fd11c18d712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\cntax">
+      <UniqueIdentifier>{862a1591-2300-4ae1-9d1a-1e646ab2df14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tax\cntax\module">
+      <UniqueIdentifier>{23edc6e7-dc9e-4555-a067-9b054087a6c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\make-mips-old">
+      <UniqueIdentifier>{da835033-cd2d-4d2b-abf7-a17fba598597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\make-arm-old">
+      <UniqueIdentifier>{75bc7b08-c829-4775-8573-4ef0feedab0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\make-arm-new">
+      <UniqueIdentifier>{1612922b-78c5-4585-8986-a83e02e2e86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\make-mips-new">
+      <UniqueIdentifier>{63cecc0a-520a-414c-b6a2-52a47eece521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\挂载盘符.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\mengbai\mengbai_call.h">
+      <Filter>源文件\tax\mengbai</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\mengbai\usb\hid_io.h">
+      <Filter>源文件\tax\mengbai\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\aisino_call.h">
+      <Filter>源文件\tax\aisino</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\usb\aisino_usbio.h">
+      <Filter>源文件\tax\aisino\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\nisec_call.h">
+      <Filter>源文件\tax\nisec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\interface_main.h">
+      <Filter>源文件\tax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\authority\httpsclt.h">
+      <Filter>源文件\tax\authority</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\authority\ssl_io.h">
+      <Filter>源文件\tax\authority</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\authority\ta_iface.h">
+      <Filter>源文件\tax\authority</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\auxiliary\aisino_des.h">
+      <Filter>源文件\tax\aisino\auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\auxiliary\build_invstr.h">
+      <Filter>源文件\tax\aisino\auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\auxiliary\rawio2fpxx.h">
+      <Filter>源文件\tax\aisino\auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_algorithm.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_common.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_getinvoice.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_getstateinfo.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_makeinvoice.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_report_clear.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_uploadinvoice.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\auth.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\common.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\define.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\function.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\idaheader.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\importinv.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\usb_device.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_algorithm.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_common.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_getbuyinvinfo.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_getinvoice.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_getmonitor.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_makeinvoice.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\usb\nisec_usbio.h">
+      <Filter>源文件\tax\nisec\usb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\authority\ta_algorithm.h">
+      <Filter>源文件\tax\authority</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\debug.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\authority\ta_xml.h">
+      <Filter>源文件\tax\authority</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_uploadinvoice.h">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_algorithm.h">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_common.h">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_getinvoice.h">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_getmonitor.h">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\cntax\cntax_call.h">
+      <Filter>源文件\tax\cntax</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_makeinvoice.h">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_netinvoice.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_redinvoice.h">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\character.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\error.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\fpxx_json.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\tax\common\mbdiff.h">
+      <Filter>源文件\tax\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tax\mengbai\mengbai_call.c">
+      <Filter>源文件\tax\mengbai</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\mengbai\usb\hid_io.c">
+      <Filter>源文件\tax\mengbai\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\aisino_call.c">
+      <Filter>源文件\tax\aisino</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\usb\aisino_usbio.c">
+      <Filter>源文件\tax\aisino\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\nisec_call.c">
+      <Filter>源文件\tax\nisec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\interface_main.c">
+      <Filter>源文件\tax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\authority\httpsclt.c">
+      <Filter>源文件\tax\authority</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\authority\ssl_io.c">
+      <Filter>源文件\tax\authority</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\authority\ta_iface.c">
+      <Filter>源文件\tax\authority</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\auxiliary\aisino_des.c">
+      <Filter>源文件\tax\aisino\auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\auxiliary\build_invstr.c">
+      <Filter>源文件\tax\aisino\auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\auxiliary\rawio2fpxx.c">
+      <Filter>源文件\tax\aisino\auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_algorithm.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_common.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_getinvoice.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_getstateinfo.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_makeinvoice.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_report_clear.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_uploadinvoice.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\auth.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\function.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\importinv.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\usb_device.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_algorithm.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_common.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_getbuyinvinfo.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_getinvoice.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_getmonitor.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_makeinvoice.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\usb\nisec_usbio.c">
+      <Filter>源文件\tax\nisec\usb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\authority\ta_algorithm.c">
+      <Filter>源文件\tax\authority</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\debug.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\authority\ta_xml.c">
+      <Filter>源文件\tax\authority</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_uploadinvoice.c">
+      <Filter>源文件\tax\nisec\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_algorithm.c">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_common.c">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_getinvoice.c">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_getmonitor.c">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\cntax\cntax_call.c">
+      <Filter>源文件\tax\cntax</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_makeinvoice.c">
+      <Filter>源文件\tax\cntax\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_netinvoice.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_redinvoice.c">
+      <Filter>源文件\tax\aisino\module</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\character.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\fpxx_json.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\tax\common\mbdiff.c">
+      <Filter>源文件\tax\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\buildall">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\..\clean.sh">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\..\make.sh">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="..\..\..\make-arm-new\Makefile">
+      <Filter>源文件\make-arm-new</Filter>
+    </None>
+    <None Include="..\..\..\make-mips-new\Makefile">
+      <Filter>源文件\make-mips-new</Filter>
+    </None>
+    <None Include="..\..\..\make-arm-old\Makefile">
+      <Filter>源文件\make-arm-old</Filter>
+    </None>
+    <None Include="..\..\..\make-mips-old\Makefile">
+      <Filter>源文件\make-mips-old</Filter>
+    </None>
+  </ItemGroup>
+</Project>

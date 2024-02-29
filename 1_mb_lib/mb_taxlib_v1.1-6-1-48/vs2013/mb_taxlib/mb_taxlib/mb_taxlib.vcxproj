@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89C0F671-0C9D-4968-BEC8-0859564335DA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mb_taxlib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\挂载盘符.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\tax\aisino\aisino_call.h" />
+    <ClInclude Include="..\..\..\tax\aisino\auxiliary\aisino_des.h" />
+    <ClInclude Include="..\..\..\tax\aisino\auxiliary\build_invstr.h" />
+    <ClInclude Include="..\..\..\tax\aisino\auxiliary\rawio2fpxx.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_algorithm.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_common.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_getinvoice.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_getstateinfo.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_makeinvoice.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_netinvoice.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_redinvoice.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_report_clear.h" />
+    <ClInclude Include="..\..\..\tax\aisino\module\aisino_uploadinvoice.h" />
+    <ClInclude Include="..\..\..\tax\aisino\usb\aisino_usbio.h" />
+    <ClInclude Include="..\..\..\tax\authority\httpsclt.h" />
+    <ClInclude Include="..\..\..\tax\authority\ssl_io.h" />
+    <ClInclude Include="..\..\..\tax\authority\ta_algorithm.h" />
+    <ClInclude Include="..\..\..\tax\authority\ta_iface.h" />
+    <ClInclude Include="..\..\..\tax\authority\ta_xml.h" />
+    <ClInclude Include="..\..\..\tax\cntax\cntax_call.h" />
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_algorithm.h" />
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_common.h" />
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_getinvoice.h" />
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_getmonitor.h" />
+    <ClInclude Include="..\..\..\tax\cntax\module\cntax_makeinvoice.h" />
+    <ClInclude Include="..\..\..\tax\common\auth.h" />
+    <ClInclude Include="..\..\..\tax\common\character.h" />
+    <ClInclude Include="..\..\..\tax\common\common.h" />
+    <ClInclude Include="..\..\..\tax\common\debug.h" />
+    <ClInclude Include="..\..\..\tax\common\define.h" />
+    <ClInclude Include="..\..\..\tax\common\error.h" />
+    <ClInclude Include="..\..\..\tax\common\fpxx_json.h" />
+    <ClInclude Include="..\..\..\tax\common\function.h" />
+    <ClInclude Include="..\..\..\tax\common\idaheader.h" />
+    <ClInclude Include="..\..\..\tax\common\importinv.h" />
+    <ClInclude Include="..\..\..\tax\common\mbdiff.h" />
+    <ClInclude Include="..\..\..\tax\common\usb_device.h" />
+    <ClInclude Include="..\..\..\tax\interface_main.h" />
+    <ClInclude Include="..\..\..\tax\mengbai\mengbai_call.h" />
+    <ClInclude Include="..\..\..\tax\mengbai\usb\hid_io.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_algorithm.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_common.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_getbuyinvinfo.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_getinvoice.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_getmonitor.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_makeinvoice.h" />
+    <ClInclude Include="..\..\..\tax\nisec\module\nisec_uploadinvoice.h" />
+    <ClInclude Include="..\..\..\tax\nisec\nisec_call.h" />
+    <ClInclude Include="..\..\..\tax\nisec\usb\nisec_usbio.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\tax\aisino\aisino_call.c" />
+    <ClCompile Include="..\..\..\tax\aisino\auxiliary\aisino_des.c" />
+    <ClCompile Include="..\..\..\tax\aisino\auxiliary\build_invstr.c" />
+    <ClCompile Include="..\..\..\tax\aisino\auxiliary\rawio2fpxx.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_algorithm.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_common.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_getinvoice.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_getstateinfo.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_makeinvoice.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_netinvoice.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_redinvoice.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_report_clear.c" />
+    <ClCompile Include="..\..\..\tax\aisino\module\aisino_uploadinvoice.c" />
+    <ClCompile Include="..\..\..\tax\aisino\usb\aisino_usbio.c" />
+    <ClCompile Include="..\..\..\tax\authority\httpsclt.c" />
+    <ClCompile Include="..\..\..\tax\authority\ssl_io.c" />
+    <ClCompile Include="..\..\..\tax\authority\ta_algorithm.c" />
+    <ClCompile Include="..\..\..\tax\authority\ta_iface.c" />
+    <ClCompile Include="..\..\..\tax\authority\ta_xml.c" />
+    <ClCompile Include="..\..\..\tax\cntax\cntax_call.c" />
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_algorithm.c" />
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_common.c" />
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_getinvoice.c" />
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_getmonitor.c" />
+    <ClCompile Include="..\..\..\tax\cntax\module\cntax_makeinvoice.c" />
+    <ClCompile Include="..\..\..\tax\common\auth.c" />
+    <ClCompile Include="..\..\..\tax\common\character.c" />
+    <ClCompile Include="..\..\..\tax\common\debug.c" />
+    <ClCompile Include="..\..\..\tax\common\fpxx_json.c" />
+    <ClCompile Include="..\..\..\tax\common\function.c" />
+    <ClCompile Include="..\..\..\tax\common\importinv.c" />
+    <ClCompile Include="..\..\..\tax\common\mbdiff.c" />
+    <ClCompile Include="..\..\..\tax\common\usb_device.c" />
+    <ClCompile Include="..\..\..\tax\interface_main.c" />
+    <ClCompile Include="..\..\..\tax\mengbai\mengbai_call.c" />
+    <ClCompile Include="..\..\..\tax\mengbai\usb\hid_io.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_algorithm.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_common.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_getbuyinvinfo.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_getinvoice.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_getmonitor.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_makeinvoice.c" />
+    <ClCompile Include="..\..\..\tax\nisec\module\nisec_uploadinvoice.c" />
+    <ClCompile Include="..\..\..\tax\nisec\nisec_call.c" />
+    <ClCompile Include="..\..\..\tax\nisec\usb\nisec_usbio.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\buildall" />
+    <None Include="..\..\..\clean.sh" />
+    <None Include="..\..\..\make-arm-new\Makefile" />
+    <None Include="..\..\..\make-arm-old\Makefile" />
+    <None Include="..\..\..\make-mips-new\Makefile" />
+    <None Include="..\..\..\make-mips-old\Makefile" />
+    <None Include="..\..\..\make.sh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

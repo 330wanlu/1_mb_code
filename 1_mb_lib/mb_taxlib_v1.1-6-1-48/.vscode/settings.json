@@ -1,0 +1,27 @@
+{
+	"files.associations": {
+		"common.h": "c",
+		"fpxx_json.h": "c",
+		"debug.h": "c",
+		"nisec_common.h": "c",
+		"nisec_usbio.h": "c",
+		"nisec_getinvoice.h": "c",
+		"nisec_getmonitor.h": "c",
+		"nisec_report_clear.h": "c",
+		"aisino_makeinvoice.h": "c",
+		"transfer.h": "c",
+		"console.h": "c",
+		"etax_call.h": "c",
+		"chongqing_call.h": "c",
+		"qingdao_call.h": "c",
+		"function.h": "c",
+		"etax_bridge.h": "c",
+		"etax_common.h": "c",
+		"etax_confirm.h": "c",
+		"hunan_call.h": "c",
+		"ningbo_call.h": "c",
+		"shanghai_call.h": "c",
+		"guizhou_call.h": "c",
+		"shaanxi_call.h": "c"
+	}
+}

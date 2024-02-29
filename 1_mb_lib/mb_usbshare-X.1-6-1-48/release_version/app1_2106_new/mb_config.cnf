@@ -1,0 +1,22 @@
+####[mb_config.cnf]####
+mb_usbshare_n = /home/share/exe
+boot_t = /home/share/exe
+boot_update.info = /etc
+tax_so.json = /etc
+libusb-1.0.so.0 = /lib
+libmb_clib.so = /lib
+libssl.so.1.1 = /lib
+libcrypto.so.1.1 = /lib
+libsqlite3.so.0 = /lib
+libmpfr.so.6 = /lib
+libgmp.so.10 = /lib
+mbdb.db = /etc
+libevent_openssl-2.1.so.7 = /lib
+libevent_pthreads-2.1.so.7 = /lib
+libevent-2.1.so.7 = /lib
+expect = /bin
+libexpect5.45.3.so = /lib
+libtcl8.6.so = /lib
+tcl.tar.gz = /lib
+
+

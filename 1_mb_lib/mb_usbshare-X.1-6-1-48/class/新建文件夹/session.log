@@ -1,0 +1,179 @@
+﻿/data/zhanghui # ./test
+
+ty_m_s_pack in 
+ty_m_s_pack[版本信息]
+ty_m_s_test:
+buf_len=103
+54 59  
+0 
+67  0  0  0 
+1  0  0  0 
+64  0  0  0
+6c 69 6e 75 78 5f 73  0 
+32 30 31 34 2d 31 31 2d 30 33  0 
+53 4b 31 2e 30 31  0 
+d5 c5 ea cd  0 
+b8 fa ce c4 bc fe b8 fa be df cc e5 b5 c4 b2 d9 d7 f7 cf b5 cd b3 d3 d0 b9 d8 a3 ac c8 ce ce f1 b9 dc c0 ed a1 a2 bb a5 b3 e2 cb f8 a1 a2 73 6f b9 dc c0 ed  0 
+67 62 6b  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[错误信息]
+ty_m_s_test:
+buf_len=24
+54 59  
+0 
+18  0  0  0  
+1  0  0  0 
+65  0  0  0  
+1 0  0  0 
+b4 ed ce f3  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[LOG信息]
+ty_m_s_test:
+buf_len=24
+54 59  
+0 
+18  0  0  0 
+ 1  0  0  0 
+66  0  0  0 
+b4 f2 d3 a1 ca e4 b3 f6  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[读BUF]
+ty_m_s_test:
+buf_len=23
+54 59 
+0 
+17 0  0  0 
+1  0  0  0 
+67  0  0  0 
+30 ac 97 be 
+ 1  0  0  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[写BUF]
+ty_m_s_test:
+buf_len=24
+54 59  
+0 
+18  0  0  0
+ 1  0  0  0 
+68  0  0  0 
+30 ac 97 be 
+1  0  0  0 
+31 
+
+ty_m_s_pack in 
+ty_m_s_pack[回调HOOK]
+ty_m_s_test:
+buf_len=23
+54 59  
+0 
+17  0  0  0 
+ 1  0  0  0 
+69  0  0  0 
+30 ac 97 be  
+1  0  0  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[系统状态]
+ty_m_s_test:
+buf_len=19
+54 59  
+0 
+13  0  0  0
+ 1  0  0  0 
+6a  0  0  0  
+1  0  0  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[创建文件]
+ty_m_s_test:
+buf_len=25
+54 59
+ 0 
+19  0  0  0 
+ 1  0  0  0 
+e8  3  0  0 
+65  0  0  0 
+73 65 72 69 61  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[删除文件]
+ty_m_s_test:
+buf_len=21
+54 59 
+ 0 
+15  0  0  0  
+1  0  0  0 
+e9  3  0  0 
+73 65 72 69 61  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[打开文件]
+ty_m_s_test:
+buf_len=21
+54 59
+0 
+15  0  0  0 
+ 1  0  0  0 
+ea  3  0  0 
+73 65 72 69 61  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[读文件]
+ty_m_s_test:
+buf_len=27
+54 59  
+0 
+1b  0  0  0
+ 1  0  0  0 
+eb  3  0  0 
+e8  3  0  0 
+30 ac 97 be  
+1  0  0  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[写文件]
+ty_m_s_test:
+buf_len=27
+54 59
+ 0 
+1b  0  0  0 
+ 1  0  0  0
+ec  3  0  0 
+e8  3  0  0 
+30 ac 97 be  
+1  0  0  0 
+
+ty_m_s_pack in 
+ty_m_s_pack[控制文件]
+ty_m_s_test:
+buf_len=55
+54 59  
+0 
+37  0  0  0
+ 1  0  0  0 
+ed  3  0  0 
+e8  3  0  0 
+30 ac 97 be 
+ 1  0  0  0
+ d0 99  0 b0 
+4c ac 97 be  
+2  0  0  0 
+66 72  0 b0 
+17  0  0  0 
+75 4d  0 b0 
+f6 ad 97 be 
+
+ty_m_s_pack in 
+ty_m_s_pack[关闭文件]
+ty_m_s_test:
+buf_len=19
+54 59  
+0 
+13  0  0  0 
+ 1  0  0  0 
+ee  3  0  0 
+e8  3  0  0 

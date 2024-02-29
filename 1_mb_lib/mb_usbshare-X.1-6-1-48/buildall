@@ -1,0 +1,27 @@
+submake:
+	cd	./app1_1906_new	&&	make -j16
+	cd	./app1_1908_new	&&	make -j16
+	cd	./app1_1910_new	&&	make -j16
+	cd	./app1_2106_new	&&	make -j16
+	cd	./app1_2108_new	&&	make -j16
+	cd	./app1_2110_new	&&	make -j16
+	cd	./app1_2202_new	&&	make -j16
+	cd	./app1_2204_new	&&	make -j16
+	cd	./app1_2212_new	&&	make -j16
+	cd	./app1_2216_new	&&	make -j16
+	cd	./app1_2306_new	&&	make -j16
+	cd	./app1_1201_new	&&	make -j16
+
+clean:
+	cd	./app1_1906_new &&	make clean
+	cd	./app1_1908_new &&	make clean
+	cd	./app1_1910_new &&	make clean
+	cd	./app1_2106_new &&	make clean
+	cd	./app1_2108_new &&	make clean
+	cd	./app1_2110_new &&	make clean
+	cd	./app1_2202_new &&	make clean
+	cd	./app1_2204_new &&	make clean
+	cd	./app1_2212_new &&	make clean
+	cd	./app1_2216_new &&	make clean
+	cd	./app1_2306_new &&	make clean
+	cd	./app1_1201_new &&	make clean
