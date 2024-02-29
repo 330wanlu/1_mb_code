@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "new_protocol_share.h": "c",
+        "manage_set_file.h": "c",
+        "cjson.h": "c",
+        "dev_main.h": "c"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "manage_set_file.h": "c",
+        "terminal_manage.h": "c"
+    }
+}

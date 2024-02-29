@@ -1,0 +1,31 @@
+﻿生成启动时间为 2021-01-28 10:06:18。
+     1>项目“E:\MB-WHL\VS-ProJect\dev_discovery\dev_discovery\dev_discovery.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (dev_discovery.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\MB-WHL\VS-2013\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DEV_DISCOVERY_EXPORTS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\Cjson\cJSON.c ..\src\dev_main.c ..\src\mylog.c new_protocol_share.c
+         cJSON.c
+     1>..\src\Cjson\cJSON.c(69): warning C4047: “:”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>..\src\Cjson\cJSON.c(69): warning C4047: “=”:“void *(__cdecl *)(void *)”与“void (__cdecl *)(void *)”的间接级别不同
+         dev_main.c
+         mylog.c
+     1>..\src\mylog.c(12): warning C4133: “函数”: 从“char [260]”到“LPWSTR”的类型不兼容
+         new_protocol_share.c
+     1>new_protocol_share.c(43): warning C4133: “函数”: 从“int *”到“const char *”的类型不兼容
+     1>new_protocol_share.c(46): warning C4133: “函数”: 从“int *”到“const char *”的类型不兼容
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\dev_discovery.res" dev_discovery.rc 
+       Link:
+         E:\MB-WHL\VS-2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MB-WHL\VS-ProJect\dev_discovery\Release\dev_oper.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MB-WHL\VS-ProJect\dev_discovery\Release\dev_oper.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MB-WHL\VS-ProJect\dev_discovery\Release\dev_oper.lib" /MACHINE:X86 /SAFESEH /DLL Release\dev_discovery.res
+         Release\cJSON.obj
+         Release\dev_main.obj
+         Release\mylog.obj
+         Release\new_protocol_share.obj
+            正在创建库 E:\MB-WHL\VS-ProJect\dev_discovery\Release\dev_oper.lib 和对象 E:\MB-WHL\VS-ProJect\dev_discovery\Release\dev_oper.exp
+         正在生成代码
+         已完成代码的生成
+         dev_discovery.vcxproj -> E:\MB-WHL\VS-ProJect\dev_discovery\Release\dev_oper.dll
+     1>已完成生成项目“E:\MB-WHL\VS-ProJect\dev_discovery\dev_discovery\dev_discovery.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.13

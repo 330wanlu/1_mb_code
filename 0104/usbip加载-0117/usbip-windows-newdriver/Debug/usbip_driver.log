@@ -1,0 +1,9 @@
+﻿生成启动时间为 2021-11-26 13:07:55。
+     1>项目“E:\MB-WHL\whl-share\usbip-windows-newdriver\usbip_driver.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(32,5): warning MSB8005: 属性“NMakeCleanCommandLine”不存在。正在跳过...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.MakeFile.Targets(42,5): warning MSB8005: 属性“NMakeReBuildCommandLine”不存在。正在跳过...
+     1>已完成生成项目“E:\MB-WHL\whl-share\usbip-windows-newdriver\usbip_driver.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.16

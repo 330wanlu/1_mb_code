@@ -1,0 +1,153 @@
+﻿生成启动时间为 2024-02-28 17:29:17。
+     1>项目“F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\usbip.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\usbip.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Cjson\cJSON.c getopt.c getopt_long.c manage_set_file.c mylog.c usbip.c usbip_common.c usbip_forward.c usbip_main.c usbip_network.c usbip_vbus_ui.c usbip_wudev.c
+         usbip_wudev.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_wudev.c(52): warning C4101: “i”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_wudev.c(46): warning C4101: “ret”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_wudev.c(47): warning C4101: “c”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_wudev.c(129): warning C4101: “i”: 未引用的局部变量
+         usbip_vbus_ui.c
+         usbip_network.c
+         usbip_main.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(55): warning C4101: “i”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(860): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(962): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(966): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(997): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1004): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(929): warning C4101: “dir4”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(929): warning C4101: “dir4_1”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1138): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1090): warning C4101: “dir4”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1090): warning C4101: “dir4_1”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1183): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1187): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1191): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1273): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1229): warning C4101: “point”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1229): warning C4101: “i”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1232): warning C4101: “wait_time”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1229): warning C4101: “dev_port”: 未引用的局部变量
+         usbip_forward.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(501): warning C4101: “rbuff”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(611): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(973): warning C4047: “函数”:“SOCKET”与“HANDLE”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(973): warning C4024: “send”: 形参和实参 1 的类型不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(978): warning C4047: “函数”:“int”与“HANDLE”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(978): warning C4024: “tcp_is_connected”: 形参和实参 1 的类型不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(1038): warning C4033: “usbip_forward”必须返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(1044): warning C4033: “usbip_forward”必须返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(1050): warning C4033: “usbip_forward”必须返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(1004): warning C4101: “diff_t”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(1003): warning C4101: “time2”: 未引用的局部变量
+         usbip_common.c
+         usbip.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.c(68): warning C4090: “函数”: 不同的“const”限定符
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.c(361): warning C4029: 声明的形参表不同于定义
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.c(372): warning C4101: “dir4”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.c(372): warning C4101: “dir4_1”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.c(474): warning C4101: “i”: 未引用的局部变量
+         mylog.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(23): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(97): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(104): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\mylog.c(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         manage_set_file.c
+         getopt_long.c
+         getopt.c
+         cJSON.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(47): warning C4047: “初始化”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(64): warning C4047: “=”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(69): warning C4047: “:”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(264): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(275): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(380): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(381): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(382): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(449): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\cjson\cjson.c(647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         正在生成代码...
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.c(776): warning C4716: “close_sock”: 必须返回一个值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(988): warning C4716: “send_test_heart_data”: 必须返回一个值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_forward.c(1166): warning C4715: “usbip_forward”: 不是所有的控件路径都返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip_main.c(1162): warning C4715: “forced_close_port”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\usbip.res" usbip.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.dll" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\usbip.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.lib" /MACHINE:X86 /DLL Debug\usbip.res
+         Debug\cJSON.obj
+         Debug\getopt.obj
+         Debug\getopt_long.obj
+         Debug\manage_set_file.obj
+         Debug\mylog.obj
+         Debug\usbip.obj
+         Debug\usbip_common.obj
+         Debug\usbip_forward.obj
+         Debug\usbip_main.obj
+         Debug\usbip_network.obj
+         Debug\usbip_vbus_ui.obj
+         Debug\usbip_wudev.obj
+            正在创建库 F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.lib 和对象 F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.exp
+         usbip.vcxproj -> F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\Debug\usbip.dll;#2" /manifest Debug\usbip.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\usbip.unsuccessfulbuild”。
+         正在对“Debug\usbip.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\usbip加载-0117——zwl\usbip-windows-newdriver\usbip.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.07

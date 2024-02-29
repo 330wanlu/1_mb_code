@@ -1,0 +1,108 @@
+﻿生成启动时间为 2024-01-18 16:08:07。
+     1>项目“F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\dev_discovery\dev_discovery.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DEV_DISCOVERY_EXPORTS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\src\Cjson\cJSON.c ..\src\client_protocol.c ..\src\dev_main.c ..\src\log.c ..\src\manage_set_file.c ..\src\mylog.c ..\src\socket_client.c ..\src\terminal_manage.c ..\src\terminal_portocol10001.c ..\src\udp.c new_protocol_share.c
+         new_protocol_share.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\dev_discovery\new_protocol_share.c(50): warning C4133: “函数”: 从“int *”到“const char *”的类型不兼容
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\dev_discovery\new_protocol_share.c(53): warning C4133: “函数”: 从“int *”到“const char *”的类型不兼容
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\dev_discovery\new_protocol_share.c(90): warning C4013: “deal_sockets5”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\dev_discovery\new_protocol_share.c(638): warning C4013: “socket_connect”未定义；假设外部返回 int
+         udp.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\udp.c(83): warning C4013: “ip2ip_asc”未定义；假设外部返回 int
+         terminal_portocol10001.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\terminal_portocol10001.c(1695): warning C4028: 形参 4 与声明不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\terminal_portocol10001.c(1695): warning C4028: 形参 6 与声明不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\terminal_portocol10001.c(1743): warning C4013: “hex2str”未定义；假设外部返回 int
+         terminal_manage.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\terminal_manage.c(229): warning C4028: 形参 1 与声明不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\terminal_manage.c(725): warning C4013: “udp_send”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\terminal_manage.c(1438): warning C4028: 形参 1 与声明不同
+         socket_client.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\socket_client.c(35): warning C4013: “WriteLogFile”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\socket_client.c(52): warning C4013: “sscanf”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\socket_client.c(142): warning C4013: “access”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\socket_client.c(143): warning C4013: “fopen”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\socket_client.c(143): warning C4047: “初始化”:“FILE *”与“int”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\socket_client.c(151): warning C4013: “sprintf”未定义；假设外部返回 int
+         mylog.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\mylog.c(23): warning C4101: “dwSize”: 未引用的局部变量
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\mylog.c(24): warning C4101: “nSize2”: 未引用的局部变量
+         manage_set_file.c
+         log.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\log.c(94): warning C4013: “mkdir”未定义；假设外部返回 int
+         dev_main.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\dev_main.c(1141): warning C4047: “函数”:“const char *”与“int”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\dev_main.c(1141): warning C4024: “cJSON_CreateString”: 形参和实参 1 的类型不同
+         client_protocol.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(609): warning C4098: “ClientGetTaxType”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(611): warning C4098: “ClientGetTaxType”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(781): warning C4013: “mid_open_port”未定义；假设外部返回 int
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(784): warning C4098: “ClientOpenUSBPort”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(787): warning C4098: “ClientOpenUSBPort”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(812): warning C4098: “client_close_port”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(816): warning C4098: “client_close_port”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(844): warning C4098: “client_query_usbport_attribute”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(871): warning C4098: “client_query_usbport_attribute”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(896): warning C4098: “client_restart_terminal”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(900): warning C4098: “client_restart_terminal”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(925): warning C4098: “client_query_cabinet_attribute_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(980): warning C4098: “client_query_cabinet_attribute_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1005): warning C4098: “client_get_used_port_device”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1008): warning C4098: “client_get_used_port_device”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1043): warning C4098: “client_get_midware_state”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1049): warning C4098: “client_get_midware_state”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1129): warning C4098: “client_search_online_terminal”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1154): warning C4098: “client_query_cabinet_network_param”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1158): warning C4098: “client_query_cabinet_network_param”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1177): warning C4098: “client_query_cabinet_network_param”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1193): warning C4028: 形参 3 与声明不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1221): warning C4098: “client_set_cabinet_network_param”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1246): warning C4098: “client_upgrade_program”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1248): warning C4098: “client_upgrade_program”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1277): warning C4098: “client_query_cabinet_attribute”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1295): warning C4098: “client_query_cabinet_attribute”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1325): warning C4098: “client_query_midware_setting”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1347): warning C4098: “client_query_midware_setting”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1376): warning C4098: “client_query_midware_setting_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1442): warning C4098: “client_updata_midware_setting”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1447): warning C4098: “client_updata_midware_setting”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1474): warning C4098: “client_updata_midware_setting_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1480): warning C4098: “client_updata_midware_setting_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1504): warning C4098: “client_updata_midware_setting_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1509): warning C4098: “client_updata_midware_setting_A”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1578): warning C4098: “ClientGetUSBListInfo”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1586): warning C4098: “ClientGetUSBListInfo”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1637): warning C4098: “ClientSetVPN”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1660): warning C4098: “ClientSetVPN”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1691): warning C4098: “clientSetAutoUpgrade”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1708): warning C4098: “clientSetAutoUpgrade”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1736): warning C4098: “clientGetVPN”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(1749): warning C4098: “clientGetVPN”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(2676): warning C4098: “old_open_port”:“void”函数返回值
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\client_protocol.c(2680): warning C4098: “old_open_port”:“void”函数返回值
+         cJSON.c
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\cjson\cjson.c(69): warning C4047: “:”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>f:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\src\cjson\cjson.c(69): warning C4047: “=”:“void *(__cdecl *)(void *)”与“void (__cdecl *)(void *)”的间接级别不同
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /l"0x0409" /nologo /fo"Debug\dev_discovery.res" dev_discovery.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\Debug\dev_info.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\Debug\dev_info.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\Debug\dev_info.lib" /MACHINE:X86 /DLL Debug\dev_discovery.res
+         Debug\cJSON.obj
+         Debug\client_protocol.obj
+         Debug\dev_main.obj
+         Debug\log.obj
+         Debug\manage_set_file.obj
+         Debug\mylog.obj
+         Debug\socket_client.obj
+         Debug\terminal_manage.obj
+         Debug\terminal_portocol10001.obj
+         Debug\udp.obj
+         Debug\new_protocol_share.obj
+            正在创建库 F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\Debug\dev_info.lib 和对象 F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\Debug\dev_info.exp
+         dev_discovery.vcxproj -> F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\Debug\dev_info.dll
+     1>已完成生成项目“F:\mnt\usbshare\online_bank\动态库\网银动态库\0104\dev_discovery(dev_info)\dev_discovery\dev_discovery.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.89

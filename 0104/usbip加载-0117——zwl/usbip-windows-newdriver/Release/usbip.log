@@ -1,0 +1,100 @@
+﻿生成启动时间为 2023-01-16 14:25:09。
+     1>项目“F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\usbip.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\usbip.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\usbip.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Ox /Oi /Oy /GT /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Cjson\cJSON.c getopt.c getopt_long.c mylog.c usbip.c usbip_common.c usbip_forward.c usbip_main.c usbip_network.c usbip_vbus_ui.c usbip_wudev.c
+         cJSON.c
+     1>Cjson\cJSON.c(47): warning C4047: “初始化”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>Cjson\cJSON.c(64): warning C4047: “=”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>Cjson\cJSON.c(69): warning C4047: “:”:“void (__cdecl *)(void *)”与“void *(__cdecl *)(void *)”的间接级别不同
+     1>Cjson\cJSON.c(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Cjson\cJSON.c(169): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Cjson\cJSON.c(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Cjson\cJSON.c(171): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Cjson\cJSON.c(264): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(275): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Cjson\cJSON.c(380): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(381): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(382): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(449): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>Cjson\cJSON.c(647): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         getopt.c
+         getopt_long.c
+         mylog.c
+     1>mylog.c(23): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>mylog.c(97): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>mylog.c(103): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>mylog.c(104): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>mylog.c(105): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>mylog.c(170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>mylog.c(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         usbip.c
+     1>usbip.c(228): warning C4101: “dir4”: 未引用的局部变量
+     1>usbip.c(228): warning C4101: “dir4_1”: 未引用的局部变量
+     1>usbip.c(328): warning C4101: “i”: 未引用的局部变量
+         usbip_common.c
+         usbip_forward.c
+     1>usbip_forward.c(579): warning C4101: “diff_t”: 未引用的局部变量
+     1>usbip_forward.c(578): warning C4101: “time2”: 未引用的局部变量
+         usbip_main.c
+     1>usbip_main.c(55): warning C4101: “i”: 未引用的局部变量
+     1>usbip_main.c(79): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>usbip_main.c(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>usbip_main.c(159): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>usbip_main.c(734): warning C4101: “point”: 未引用的局部变量
+     1>usbip_main.c(734): warning C4101: “i”: 未引用的局部变量
+     1>usbip_main.c(737): warning C4101: “wait_time”: 未引用的局部变量
+     1>usbip_main.c(734): warning C4101: “dev_port”: 未引用的局部变量
+         usbip_network.c
+         usbip_vbus_ui.c
+         usbip_wudev.c
+     1>usbip_wudev.c(52): warning C4101: “i”: 未引用的局部变量
+     1>usbip_wudev.c(46): warning C4101: “ret”: 未引用的局部变量
+     1>usbip_wudev.c(47): warning C4101: “c”: 未引用的局部变量
+     1>usbip_wudev.c(129): warning C4101: “i”: 未引用的局部变量
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\usbip.res" usbip.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.dll" /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\usbip.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.lib" /MACHINE:X86 /DLL Release\usbip.res
+         Release\cJSON.obj
+         Release\getopt.obj
+         Release\getopt_long.obj
+         Release\mylog.obj
+         Release\usbip.obj
+         Release\usbip_common.obj
+         Release\usbip_forward.obj
+         Release\usbip_main.obj
+         Release\usbip_network.obj
+         Release\usbip_vbus_ui.obj
+         Release\usbip_wudev.obj
+            正在创建库 F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.lib 和对象 F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.exp
+         正在生成代码
+     1>f:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\usbip.c(601): warning C4716: “close_sock”: 必须返回一个值
+         已完成代码的生成
+         usbip.vcxproj -> F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\Release\usbip.dll;#2" /manifest Release\usbip.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\usbip.unsuccessfulbuild”。
+         正在对“Release\usbip.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\mnt\共享文档\加载动态库\usbip加载\usbip-windows-newdriver\usbip.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.58
