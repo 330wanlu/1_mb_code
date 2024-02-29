@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\software">
+      <UniqueIdentifier>{3ed5951f-61a7-477e-ae61-544dd83a4d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\software\mxml">
+      <UniqueIdentifier>{3c531f3d-bcad-435c-a203-4fa852c7bc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\make-arm">
+      <UniqueIdentifier>{90864064-d574-40df-8106-b706b1801e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\make-mips">
+      <UniqueIdentifier>{10588cfc-40a1-48cd-9dd6-78f0d5dc2c67}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\software\_algorithm.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_base64.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_code_s.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_confl.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_Date.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_des.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_utf82gbk.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_zlib.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\cJSON.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\test_malloc.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\utf8.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\mxml\config.h">
+      <Filter>源文件\software\mxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\mxml\mxml.h">
+      <Filter>源文件\software\mxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\mxml\mxml-private.h">
+      <Filter>源文件\software\mxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_linux_s.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_t_file_c.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_t_pid.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_file_pro.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_folder.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_log.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_timer.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\tax_info.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\mb_typedef.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_dec_file.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\挂载盘符.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\software\_algorithm.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_base64.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_code_s.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_confl.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_Date.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_des.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_utf82gbk.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_zlib.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\cJSON.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\test_malloc.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-attr.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-entity.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-file.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-get.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-index.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-node.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-private.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-search.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-set.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\mxml\mxml-string.c">
+      <Filter>源文件\software\mxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_t_file_c.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_t_pid.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_file_pro.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_folder.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_log.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_timer.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_dec_file.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\make-arm\Makefile">
+      <Filter>源文件\make-arm</Filter>
+    </None>
+    <None Include="..\..\..\make-mips\Makefile">
+      <Filter>源文件\make-mips</Filter>
+    </None>
+    <None Include="..\..\..\buildall">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\clean.sh">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\..\..\make.sh">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

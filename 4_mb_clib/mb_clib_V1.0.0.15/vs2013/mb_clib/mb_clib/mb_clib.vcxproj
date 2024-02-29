@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FE769FF7-F770-4CD7-B188-1909AD1969E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>mb_clib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\software\cJSON.h" />
+    <ClInclude Include="..\..\..\software\mb_typedef.h" />
+    <ClInclude Include="..\..\..\software\minizip\crypt.h" />
+    <ClInclude Include="..\..\..\software\minizip\ioapi.h" />
+    <ClInclude Include="..\..\..\software\minizip\mztools.h" />
+    <ClInclude Include="..\..\..\software\minizip\unzip.h" />
+    <ClInclude Include="..\..\..\software\minizip\zip.h" />
+    <ClInclude Include="..\..\..\software\mxml\config.h" />
+    <ClInclude Include="..\..\..\software\mxml\mxml-private.h" />
+    <ClInclude Include="..\..\..\software\mxml\mxml.h" />
+    <ClInclude Include="..\..\..\software\test_malloc.h" />
+    <ClInclude Include="..\..\..\software\utf8.h" />
+    <ClInclude Include="..\..\..\software\_algorithm.h" />
+    <ClInclude Include="..\..\..\software\_base64.h" />
+    <ClInclude Include="..\..\..\software\_code_s.h" />
+    <ClInclude Include="..\..\..\software\_confl.h" />
+    <ClInclude Include="..\..\..\software\_Date.h" />
+    <ClInclude Include="..\..\..\software\_dec_file.h" />
+    <ClInclude Include="..\..\..\software\_des.h" />
+    <ClInclude Include="..\..\..\software\_file_pro.h" />
+    <ClInclude Include="..\..\..\software\_folder.h" />
+    <ClInclude Include="..\..\..\software\_linux_s.h" />
+    <ClInclude Include="..\..\..\software\_log.h" />
+    <ClInclude Include="..\..\..\software\_timer.h" />
+    <ClInclude Include="..\..\..\software\_t_file_c.h" />
+    <ClInclude Include="..\..\..\software\_t_pid.h" />
+    <ClInclude Include="..\..\..\software\_utf82gbk.h" />
+    <ClInclude Include="..\..\..\software\_zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\挂载盘符.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\software\cJSON.c" />
+    <ClCompile Include="..\..\..\software\minizip\ioapi.c" />
+    <ClCompile Include="..\..\..\software\minizip\minizip.c" />
+    <ClCompile Include="..\..\..\software\minizip\mztools.c" />
+    <ClCompile Include="..\..\..\software\minizip\unzip.c" />
+    <ClCompile Include="..\..\..\software\minizip\zip.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-attr.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-entity.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-file.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-get.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-index.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-node.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-private.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-search.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-set.c" />
+    <ClCompile Include="..\..\..\software\mxml\mxml-string.c" />
+    <ClCompile Include="..\..\..\software\test_malloc.c" />
+    <ClCompile Include="..\..\..\software\_algorithm.c" />
+    <ClCompile Include="..\..\..\software\_base64.c" />
+    <ClCompile Include="..\..\..\software\_code_s.c" />
+    <ClCompile Include="..\..\..\software\_confl.c" />
+    <ClCompile Include="..\..\..\software\_Date.c" />
+    <ClCompile Include="..\..\..\software\_dec_file.c" />
+    <ClCompile Include="..\..\..\software\_des.c" />
+    <ClCompile Include="..\..\..\software\_file_pro.c" />
+    <ClCompile Include="..\..\..\software\_folder.c" />
+    <ClCompile Include="..\..\..\software\_log.c" />
+    <ClCompile Include="..\..\..\software\_timer.c" />
+    <ClCompile Include="..\..\..\software\_t_file_c.c" />
+    <ClCompile Include="..\..\..\software\_t_pid.c" />
+    <ClCompile Include="..\..\..\software\_utf82gbk.c" />
+    <ClCompile Include="..\..\..\software\_zlib.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\buildall" />
+    <None Include="..\..\..\clean.sh" />
+    <None Include="..\..\..\make-arm\Makefile" />
+    <None Include="..\..\..\make-mips\Makefile" />
+    <None Include="..\..\..\make.sh" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

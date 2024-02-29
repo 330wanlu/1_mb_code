@@ -1,0 +1,5 @@
+mount -t cifs -o nounix,noserverino,username=guest,password= //192.168.0.50/mnt /mnt/share
+
+
+mtk环境告警问题解决：
+export STAGING_DIR=/home/share/mtk-usbshare-system/openwrt_CC_mt76xx_zhuotk_source/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin:$STAGING_DIR

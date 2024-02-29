@@ -1,0 +1,9 @@
+export STAGING_DIR=/home/share/mtk-usbshare-system/openwrt_CC_mt76xx_zhuotk_source/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin:$STAGING_DIR
+submake:
+	cd	./make-arm		&&	$(MAKE) -j16
+	cd	./make-mips		&&	$(MAKE) -j16
+clean:
+	cd	./make-arm		&&	$(MAKE)	$$n	clean
+	cd	./make-mips		&&	$(MAKE)	$$n	clean
+
+
