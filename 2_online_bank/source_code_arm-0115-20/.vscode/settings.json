@@ -1,0 +1,14 @@
+{
+	"files.associations": {
+		"linux_s.h": "c",
+		"http_reg.h": "c",
+		"robot_arm.h": "c",
+		"https_client.h": "c",
+		"machine_infor.h": "c",
+		"update.h": "c",
+		"mb_tools.h": "c",
+		"deal_cmd_newshare.h": "c",
+		"tran_data.h": "c",
+		"usb_port.h": "c"
+	}
+}

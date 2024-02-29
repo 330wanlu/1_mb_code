@@ -1,0 +1,16 @@
+submake:
+	cd	./make_mb_2110	&&	make -j16
+	cd	./make_mb_2303	&&	make -j16
+	cd	./make_mb_2108	&&	make -j16
+	cd	./make_mb_2202	&&	make -j16
+	cd	./make_mb_2306	&&	make -j16
+	cd	./make_mb_2212	&&	make -j16
+
+clean:
+	cd	./make_mb_2110	&&	make clean
+	cd	./make_mb_2303	&&	make clean
+	cd	./make_mb_2108	&&	make clean
+	cd	./make_mb_2202	&&	make clean
+	cd	./make_mb_2306	&&	make clean
+	cd	./make_mb_2212	&&	make clean
+	
