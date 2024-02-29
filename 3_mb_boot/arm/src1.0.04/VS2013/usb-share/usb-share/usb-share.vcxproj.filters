@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\software">
+      <UniqueIdentifier>{b4e87a98-ea35-4e1a-af54-ad33f25b8355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\mb_boot">
+      <UniqueIdentifier>{8dd81f62-b4a0-4b5d-a2db-22ffc7c1c523}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\挂载盘符.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\mb_boot\_main.c">
+      <Filter>源文件\mb_boot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mb_boot\_http_boot.c">
+      <Filter>源文件\mb_boot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\mb_boot\_tools_boot.c">
+      <Filter>源文件\mb_boot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_app_file.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_base64.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\_code_s.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\software\cJSON.c">
+      <Filter>源文件\software</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\mb_boot\_main.h">
+      <Filter>源文件\mb_boot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\mb_boot\_comm_boot.h">
+      <Filter>源文件\mb_boot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\mb_boot\_http_boot.h">
+      <Filter>源文件\mb_boot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\mb_boot\_tools_boot.h">
+      <Filter>源文件\mb_boot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_app_file.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_base64.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\_code_s.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\software\cJSON.h">
+      <Filter>源文件\software</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\mb_boot\Makefile">
+      <Filter>源文件\mb_boot</Filter>
+    </None>
+  </ItemGroup>
+</Project>

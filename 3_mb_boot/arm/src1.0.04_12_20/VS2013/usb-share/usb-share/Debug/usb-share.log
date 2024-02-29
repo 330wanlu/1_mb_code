@@ -1,0 +1,253 @@
+﻿生成启动时间为 2019-06-28 14:55:24。
+     1>项目“D:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\VS2013\usb-share\usb-share\usb-share.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of _load.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\mb_1601\_load.c, ..\..\..\mb_1602a\_load.c, ..\..\..\mb_1602\_load.c, ..\..\..\mb_1603c\_load.c, ..\..\..\mb_1805\_load.c, ..\..\..\mb_1806\_load.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of _main.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\mb_1601\_main.c, ..\..\..\mb_1602a\_main.c, ..\..\..\mb_1602\_main.c, ..\..\..\mb_1603c\_main.c, ..\..\..\mb_1805\_main.c, ..\..\..\mb_1806\_main.c, ..\..\..\mb_boot\_main.c.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of _ty_1502.c will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\mb_1601\_ty_1502.c, ..\..\..\mb_1602a\_ty_1502.c, ..\..\..\mb_1602\_ty_1502.c, ..\..\..\mb_1603c\_ty_1502.c, ..\..\..\mb_1805\_ty_1502.c, ..\..\..\mb_1806\_ty_1502.c.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\usb-share.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\bsp\_usart.c ..\..\..\class\_ty_m.c ..\..\..\core\_deploy.c ..\..\..\core\_device_manage.c ..\..\..\core\_download_net_data.c ..\..\..\core\_event_file.c ..\..\..\core\_file_event.c ..\..\..\core\_get_net_state.c ..\..\..\core\_get_net_time.c ..\..\..\core\_machine_infor.c ..\..\..\core\_port_core_note.c ..\..\..\core\_register.c ..\..\..\core\_seria.c ..\..\..\core\_socket_client.c ..\..\..\core\_socket_sev.c ..\..\..\core\_switch_dev.c ..\..\..\core\_tran_data.c ..\..\..\core\_ty_file_core.c ..\..\..\core\_ty_pd.c ..\..\..\core\_ty_usb.c ..\..\..\core\_ty_usbip.c ..\..\..\core\_ty_usb_m.c ..\..\..\core\_udp_sev.c ..\..\..\core\_update_file.c ..\..\..\core\_vpn_set.c ..\..\..\file\_file.c ..\..\..\file\_file_ac.c ..\..\..\file\_mem_oper.c ..\..\..\linux_sys\mass_storage.c ..\..\..\linux_sys\mqtt_client.c ..\..\..\linux_sys\mqtt_share.c ..\..\..\linux_sys\usb_device.c ..\..\..\linux_sys\usb_io.c ..\..\..\linux_sys\_file_oper.c ..\..\..\linux_sys\_ftp_n.c ..\..\..\linux_sys\_http.c ..\..\..\linux_sys\_linux_ip.c ..\..\..\linux_sys\_usb_names.c ..\..\..\linux_sys\_usb_tree.c ..\..\..\linux_s\_file_pro.c ..\..\..\linux_s\_folder.c ..\..\..\linux_s\_linux_note.c ..\..\..\linux_s\_lock.c ..\..\..\linux_s\_permission.c ..\..\..\linux_s\_queue.c ..\..\..\linux_s\_rest.c ..\..\..\linux_s\_sig.c ..\..\..\linux_s\_task.c ..\..\..\linux_s\_timer.c ..\..\..\linux_s\_t_file_c.c ..\..\..\linux_s\_t_pid.c ..\..\..\linux_s\_usbip_file.c ..\..\..\linux_s\_usb_file.c ..\..\..\manage\_err.c ..\..\..\manage\_log.c ..\..\..\manage\_log_file.c ..\..\..\manage\_manage_note.c ..\..\..\manage\_ma_id.c ..\..\..\manage\_process_manage.c ..\..\..\mb_1601\_load.c ..\..\..\mb_1601\_main.c ..\..\..\mb_1601\_ty_1502.c ..\..\..\mb_1602a\_load.c ..\..\..\mb_1602a\_main.c ..\..\..\mb_1602a\_ty_1502.c ..\..\..\mb_1602\_load.c ..\..\..\mb_1602\_main.c ..\..\..\mb_1602\_ty_1502.c ..\..\..\mb_1603c\_load.c ..\..\..\mb_1603c\_main.c ..\..\..\mb_1603c\_ty_1502.c ..\..\..\mb_1805\_load.c ..\..\..\mb_1805\_main.c ..\..\..\mb_1805\_ty_1502.c ..\..\..\mb_1806\_load.c ..\..\..\mb_1806\_main.c ..\..\..\mb_1806\_ty_1502.c ..\..\..\mb_boot\_main.c ..\..\..\software\cJSON.c ..\..\..\software\_algorithm.c ..\..\..\software\_app_file.c ..\..\..\software\_base64.c ..\..\..\software\_bmp_s.c ..\..\..\software\_code_s.c ..\..\..\software\_confl.c ..\..\..\software\_Date.c ..\..\..\software\_des.c ..\..\..\software\_dot.c ..\..\..\software\_host_add.c ..\..\..\software\_lib_file.c ..\..\..\software\_test_xml.c ..\..\..\software\_utf82gbk.c ..\..\..\software\_xml.c ..\..\..\software\_zlib.c ..\..\..\tax\aisino\aisino_call.c ..\..\..\tax\aisino\aisino_main.c ..\..\..\tax\aisino\module\algorithm_des.c ..\..\..\tax\aisino\module\getinvoice_dec.c ..\..\..\tax\aisino\module\getinvoice_num.c ..\..\..\tax\aisino\module\getstateinfo.c ..\..\..\tax\aisino\module\invoice_json.c ..\..\..\tax\mengbai\mengbai_call.c ..\..\..\tax\mengbai\mengbai_main.c ..\..\..\tax\mengbai\usb\hid_io.c ..\..\..\tax\nisec\module\commfunc.c ..\..\..\tax\nisec\module\getinvoice.c ..\..\..\tax\nisec\module\getmonitor.c ..\..\..\tax\nisec\module\getstock.c ..\..\..\tax\nisec\module\nsrsbh_dec.c ..\..\..\tax\nisec\nisec_call.c ..\..\..\tax\nisec\nisec_main.c ..\..\..\tax\_tax_info.c
+         _tax_info.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\_tax_info.c(24): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\nisec_main.c(176): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nisec_call.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\nisec_call.c(703): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         nsrsbh_dec.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\nsrsbh_dec.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\nsrsbh_dec.c(68): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         getstock.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\getstock.c(506): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         getmonitor.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\getmonitor.c(184): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         getinvoice.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\getinvoice.c(1329): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         commfunc.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\commfunc.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\nisec\module\commfunc.c(296): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         hid_io.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\mengbai\usb\hid_io.c(293): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         mengbai_main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\mengbai\mengbai_main.c(504): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         mengbai_call.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\mengbai\mengbai_call.c(1825): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         invoice_json.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\invoice_json.c(508): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         getstateinfo.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\getstateinfo.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\getstateinfo.c(344): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         getinvoice_num.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\getinvoice_num.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\getinvoice_num.c(160): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         getinvoice_dec.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\getinvoice_dec.c(1186): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         algorithm_des.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\algorithm_des.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\module\algorithm_des.c(419): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\aisino_main.c(277): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         aisino_call.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\tax\aisino\aisino_call.c(1107): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _zlib.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_zlib.c(181): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _xml.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_xml.c(226): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+         正在编译...
+         _utf82gbk.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_utf82gbk.c(326): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _test_xml.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_test_xml.c(23): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _lib_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_lib_file.c(196): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _host_add.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_host_add.c(46): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _dot.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_dot.c(154): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _des.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_des.c(1025): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _Date.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_date.c(600): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _confl.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_confl.c : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_confl.c(329): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _code_s.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_code_s.c(471): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _bmp_s.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_bmp_s.c(54): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _base64.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_base64.c(251): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _app_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_app_file.c(326): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _algorithm.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\_algorithm.c(34): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         cJSON.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\software\cjson.c(759): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_boot\_main.c(40): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_1502.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1806\_ty_1502.c(2593): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1806\_main.c(94): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _load.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1806\_load.c(30): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_1502.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1805\_ty_1502.c(2593): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1805\_main.c(94): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+         正在编译...
+         _load.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1805\_load.c(30): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_1502.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1603c\_ty_1502.c(2593): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1603c\_main.c(94): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _load.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1603c\_load.c(30): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_1502.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1602\_ty_1502.c(2593): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1602\_main.c(94): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _load.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1602\_load.c(30): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_1502.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1602a\_ty_1502.c(2593): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1602a\_main.c(94): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _load.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1602a\_load.c(30): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_1502.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1601\_ty_1502.c(4671): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _main.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1601\_main.c(133): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _load.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\mb_1601\_load.c(30): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _process_manage.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\manage\_process_manage.c(151): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ma_id.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\manage\_ma_id.c(155): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _manage_note.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\manage\_manage_note.c(7): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _log_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\manage\_log_file.c(69): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _log.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\manage\_log.c(179): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _err.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\manage\_err.c(60): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _usb_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_usb_file.c(381): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+         正在编译...
+         _usbip_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_usbip_file.c(349): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _t_pid.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_t_pid.c(82): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _t_file_c.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_t_file_c.c(93): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _timer.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_timer.c(208): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _task.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_task.c(242): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _sig.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_sig.c(54): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _rest.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_rest.c(38): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _queue.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_queue.c(71): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _permission.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_permission.c(25): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _lock.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_lock.c(113): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _linux_note.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_linux_note.c(10): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _folder.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_folder.c(49): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _file_pro.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_s\_file_pro.c(113): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _usb_tree.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\_usb_tree.c(459): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _usb_names.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\_usb_names.c(794): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _linux_ip.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\_linux_ip.c(1276): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _http.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\_http.c(77): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ftp_n.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\_ftp_n.c(519): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _file_oper.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\_file_oper.c(51): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         usb_io.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\usb_io.c(275): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+         正在编译...
+         usb_device.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\usb_device.c(134): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         mqtt_share.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\mqtt_share.c(639): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         mqtt_client.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\mqtt_client.c(194): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         mass_storage.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\linux_sys\mass_storage.c(119): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _mem_oper.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\file\_mem_oper.c(50): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _file_ac.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\file\_file_ac.c(141): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\file\_file.c(215): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _vpn_set.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_vpn_set.c(414): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _update_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_update_file.c(701): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _udp_sev.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_udp_sev.c(261): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_usb_m.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_ty_usb_m.c(4324): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_usbip.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_ty_usbip.c(602): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_usb.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_ty_usb.c(931): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_pd.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_ty_pd.c(453): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_file_core.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_ty_file_core.c(136): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _tran_data.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_tran_data.c(1969): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _switch_dev.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_switch_dev.c(694): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _socket_sev.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_socket_sev.c(471): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _socket_client.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_socket_client.c(645): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _seria.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_seria.c(244): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+         正在编译...
+         _register.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_register.c(820): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _port_core_note.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_port_core_note.c(7): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _machine_infor.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_machine_infor.c(479): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _get_net_time.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_get_net_time.c(272): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _get_net_state.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_get_net_state.c(102): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _file_event.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_file_event.c(166): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _event_file.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_event_file.c(148): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _download_net_data.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_download_net_data.c(708): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _device_manage.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_device_manage.c(1210): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _deploy.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\core\_deploy.c(849): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _ty_m.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\class\_ty_m.c(98): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         _usart.c
+     1>d:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\bsp\_usart.c(134): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+         正在生成代码...
+     1>已完成生成项目“D:\share\usbshare\a20-33\usbshareserver\g-8-24\outside_kernel\VS2013\usb-share\usb-share\usb-share.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:02.90
