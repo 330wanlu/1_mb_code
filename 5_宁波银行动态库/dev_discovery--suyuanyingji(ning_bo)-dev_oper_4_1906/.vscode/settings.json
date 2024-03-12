@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "cjson.h": "c",
+        "new_protocol_share.h": "c"
+    }
+}
